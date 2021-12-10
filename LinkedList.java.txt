@@ -1,0 +1,18 @@
+import java.util.*;
+public class MyEx12 {
+  public static void main(String[] args) {
+   LinkedList i = new LinkedList();
+   i.add("sachin");
+   i.add(10);
+   i.add(null);
+   i.add("sachin");
+   System.out.println(i);
+   i.set(0,"rahul");
+   System.out.println(i); 
+   i.add(0,"ritik");
+   System.out.println(i);
+   i.removeLast();
+   System.out.println(i);
+   i.addFirst("raushan");
+   System.out.println(i); 
+  }}
